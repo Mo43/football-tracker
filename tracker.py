@@ -1,5 +1,7 @@
 import requests
 import time
+from dotenv import load_dotenv
+import os
 
 API_KEY = "6ba343f6e21eb21e6466e6c9c6f46bce"
 
