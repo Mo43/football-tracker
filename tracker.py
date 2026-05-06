@@ -3,7 +3,9 @@ import time
 from dotenv import load_dotenv
 import os
 
-API_KEY = "6ba343f6e21eb21e6466e6c9c6f46bce"
+load_dotenv()
+
+API_KEY = os.getenv("API_KEY")
 
 url = "https://v3.football.api-sports.io/fixtures?live=all"
 
